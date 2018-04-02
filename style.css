@@ -1,0 +1,102 @@
+*{
+    font-family: 'Amita', cursive;
+}
+.hidden{
+    display:none !important;
+}
+body{
+    margin:0;
+    position:relative;
+    background-color: rgb(12, 92, 95);
+    background-image: url("https://i.pinimg.com/originals/e3/42/0d/e3420d96c7b3ae359dc18699d52f9f22.jpg");
+    background-size: 50%;
+}
+
+header p{
+    text-align: center;
+    font-size: 70px;
+    margin: 20px 0 50px 0;
+}
+.dogLogo{
+    width:90px;
+}
+.container{
+    text-align: center;
+    width: 65%;
+    position: relative;
+    height: 65%;
+    left: 15%;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+}
+#breed{
+    margin: 0px;
+}
+
+.funFacts{
+    font-size: 30px;
+    bottom:70px;
+    position:relative;
+
+}
+#facts{
+    font-size:25px;
+    text-align: center;
+    color: rgb(141, 45, 165);
+    top:10%;
+}
+/* buttons */
+#choose{
+    position:absolute;
+    left:37%;
+    font-size: 20px;
+    background-color: rgb(82, 20, 110);
+    width:30%;
+    color:white;
+    text-decoration: none;
+    transition: all 1s;
+    padding:10px 30px 10px 30px;
+    
+}
+#choose:hover{
+    border-radius: 35px;
+    transition: all 1s;
+
+}
+#nextBtn{
+    position: relative;
+    left: 15%;
+    bottom: 200px;
+    font-size: 20px;
+    background-color: rgb(82, 20, 110);
+    width:10%;
+    color:white;
+    text-decoration: none;
+    transition: all 1s;
+    padding:10px 30px 10px 30px;
+
+}
+#nextBtn:hover{
+    border-radius: 35px;
+    transition: all 1s;
+
+}
+#frontPage img{
+    position:relative;
+    width:30%;
+    height:25%;
+    left:10%;
+    vertical-align: center;
+   
+}
+.container img{
+    width: 550px;
+    height:500px;
+}
+
+
+
+
+
+
