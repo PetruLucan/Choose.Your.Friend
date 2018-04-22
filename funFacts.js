@@ -1,7 +1,8 @@
 var firstPage = document.getElementById("frontPage")
-var chooseBtn = document.getElementById("choose")
+var chooseBtn = document.getElementById("chooseButton")
 var secondPage = document.getElementById("scndPage")
 var randomFacts = document.getElementById("facts")
+var seeMoreBtn = document.getElementById("seeMoreButton")
 var funFacts = [
     "You can lower your blood pressure just by petting your pup!",
     'Corgi is Welsh for "dwarf dog".',
@@ -34,7 +35,9 @@ function onClick(){
     firstPage.classList.add("hidden");
     secondPage.classList.remove("hidden")
     nextBtn.classList.remove("hidden")
+    seeMoreBtn.classList.remove("hidden")
     addResult()
+    
 }
 addFacts()
 function addFacts(){
