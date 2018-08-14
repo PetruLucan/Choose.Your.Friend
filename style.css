@@ -1,5 +1,10 @@
 *{
     font-family: 'Amita', cursive;
+    margin:0px;
+    padding:0px;
+}
+html, body{
+    height:100%;
 }
 .hidden{
     display:none !important;
@@ -8,7 +13,7 @@ body{
     margin:0;
     position:relative;
     background-color: rgb(12, 92, 95);
-    background-image: url("https://i.pinimg.com/originals/e3/42/0d/e3420d96c7b3ae359dc18699d52f9f22.jpg");
+    background-image: url(pics/background.jpg);
     background-size: 50%;
 }
 
@@ -25,6 +30,8 @@ header p{
     height: 1px;
     width: 60%;
     margin-bottom: 40px;
+    position:relative;
+    left:20%;
 }
 #scndPage hr{
     width:15%;
@@ -32,7 +39,10 @@ header p{
     background-color: rgb(0, 119, 255);
     color: rgba(113, 64, 185, 0.87);
     height: 1px;
+    position:relative;
+    left:43%;
 }
+
 .dogLogo{
     width:90px;
 }
@@ -128,7 +138,26 @@ header p{
     width: 550px;
     height:500px;
 }
-
+#frontPage{
+    overflow:auto;
+    padding-bottom:100px;
+}
+#scndPage{
+    overflow:auto;
+    padding-bottom:100px;
+}
+#footerProperties{
+    min-height:100%;
+}
+#footer{
+    background-color: blue;
+    position:relative;
+    height:30px;
+    margin-top: -30px;
+    clear:both;
+    color:white;
+    text-align:center;
+}
 
 
 
