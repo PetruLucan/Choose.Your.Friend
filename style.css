@@ -13,7 +13,7 @@ body{
     margin:0;
     position:relative;
     background-color: rgb(12, 92, 95);
-    background-image: url(pics/background.jpg);
+    background-image: url(pics/background.png);
     background-size: 50%;
 }
 
@@ -73,58 +73,69 @@ header p{
     top:10%;
 }
 /* buttons */
+.btnStyle{
+    background-color: rgb(82, 20, 110);
+    color:white;
+    text-decoration: none;
+    transition: all 1s;
+    position:relative;
+    border-radius: 8px;
+}
 #chooseButton{
     position:absolute;
     left:37%;
     font-size: 20px;
-    background-color: rgb(82, 20, 110);
     width:30%;
-    color:white;
-    text-decoration: none;
-    transition: all 1s;
     padding:10px 30px 10px 30px;
-    border-radius: 8px;
 }
 #chooseButton:hover{
     border-radius: 35px;
     transition: all 1s;
-
 }
 #seeMoreButton{
     position:absolute;
-    left: 80%;
+    left: 55%;
     font-size: 17px;
-    background-color: rgb(82, 20, 110);
     width:10%;
-    color:white;
-    text-decoration: none;
-    transition: all 1s;
     padding:10px 17px 10px 17px;
-    top:50%;
+    bottom:-110px;
     border-radius: 8px;
 }
 #seeMoreButton:hover{
     border-radius: 35px;
     transition: all 1s;
-
 }
 #nextBtn{
-    position: relative;
     left: 15%;
     bottom: 200px;
     font-size: 20px;
-    background-color: rgb(82, 20, 110);
     width:10%;
-    color:white;
-    text-decoration: none;
-    transition: all 1s;
     padding:10px 30px 10px 30px;
-    border-radius: 8px;
 }
 #nextBtn:hover{
     border-radius: 35px;
     transition: all 1s;
-
+}
+#goBackButton{
+    left:-65%;
+    bottom:200px;
+    font-size: 20px;
+    padding:10px 30px 10px 30px;
+}
+#goBackButton:hover{
+    border-radius: 35px;
+    transition: all 1s;
+}
+#saveButton{
+    font-size: 17px;
+    width:10%;
+    padding:10px 17px 10px 17px;
+    left:-55%;
+    bottom:50px;
+}
+#saveButton:hover{
+    border-radius: 35px;
+    transition: all 1s;
 }
 #frontPage img{
     position:relative;
@@ -132,7 +143,6 @@ header p{
     height:25%;
     left:10%;
     vertical-align: center;
-   
 }
 .container img{
     width: 550px;
